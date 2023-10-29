@@ -1,0 +1,9 @@
+Angestellte
+Manager
+Techniker
+Forscher
+Entwickler
+Vertriebler
+Marketing
+Studenten
+Operators
