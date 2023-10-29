@@ -1,0 +1,37 @@
+{
+    "domain": "somethingsomething.de",
+
+    "groups" : [
+        {
+            "name": "Angestellte"
+        }
+    ],
+
+    "users": [
+
+        {
+            "local_admin": ["workstation01"],
+            "name": "Alice Lice",
+            "password":"bubbles",
+            "groups": [
+                "Angestellte"
+            ]
+        },
+        {
+            "local_admin": ["workstation02"],
+            "name": "Bob Ob",
+            "password":"ashley",
+            "groups": [
+                "Angestellte"
+            ]
+        },
+        {
+            "local_admin": ["workstation01", "workstation02", "dc1"],
+            "name": "Charlie Harlie",
+            "password":"P@ssw0rdABC",
+            "groups": [
+                "Angestellte"
+            ]
+        }
+    ]
+}
