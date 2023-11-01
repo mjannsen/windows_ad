@@ -13,9 +13,9 @@ Training for Windows AD.
 ```shell
 Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
 ```
-
-```
+```shell
 Get-NetIPAddress
+Install-ADDSForest
 ```
 
 ## Joining the Workstation to the domain
