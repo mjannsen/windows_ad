@@ -14,7 +14,7 @@ Training for Windows AD.
 Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
 ```
 ```shell
-Get-NetIPAddress
+import-Module ADDSDeployment
 Install-ADDSForest
 ```
 
