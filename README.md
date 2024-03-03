@@ -15,7 +15,8 @@ Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
 ```
 ```powershell
 import-Module ADDSDeployment
-Install-ADDSForest
+$mySMAP = Read-Host "Enter the SafeModeAdminPassword" -AsSecureString
+Install-ADDSForest -DomainName "something.de" -SafeModeAdministratorPassword $mySMAP
 ```
 
 ## Joining the Workstation to the domain
